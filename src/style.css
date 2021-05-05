@@ -1,0 +1,1053 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Oxygen:wght@300;400;700&display=swap');
+
+::-webkit-input-placeholder{
+  color: #8B8383;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+/*Mobile*/
+*{
+    background:#DFF0F2;
+    background-attachment: fixed;
+}
+
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+h1{
+    font-family: 'Amatic SC';
+    font-size: 55px;
+    align-items: center;
+    text-align: center;
+    color: #3E8C59;
+}
+
+.desktopHome, .iconAppNavigate, .iconAppTwo{
+  display:none;
+}
+
+.desktopLogin, .desktopSignup{
+  display:none;
+}
+.containerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    justify-content: center;
+    align-items: flex-start;
+    width: 25em;
+}
+.session{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 100px;
+}
+.buttonSignUp,
+.buttonLogin,
+.sendNewUser{
+    border: none;
+    background-color: #3E8C5A;
+    color:white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.moreInfo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: #5080C0;
+    padding: .5em;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 100px, 15px, 100px, 15px;
+}
+
+.back {
+    display: flex;
+    align-self: flex-start;
+    width: 2em;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color:white;
+}
+/* es la barrita de separación */
+hr {
+    width:100%;
+    border: 1px solid white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0deg);
+}
+
+.aboutText{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.aboutTextHome {
+    display: none;
+}
+
+.aboutText >p {
+    padding: .5em;
+    font-family: 'Oxygen', sans-serif;
+    text-align: justify ;
+    font-size: 18px;
+    line-height: 23px;
+    color: #8B8383;
+    background-color: white;
+    width: 80%;
+    height: 90%;
+}
+/*div contenedor de la imagen planta*/
+.aboutImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 250px;
+}
+/*imagen about*/
+.aboutImage {
+    width: 5em;
+    background-color:white;
+    padding: 50px;
+}
+
+/*pantalla Sign Up
+/*titulos de registro*/
+.signUpText{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.signUpText h2{
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.signUpText h3{
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* //Inputs */
+.dataNewUser{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.nameNewUser,
+.mailNewUser,
+.passwordNewUser{
+    background: #FFFFFF;
+    width: 280px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border:none;
+    border-radius: 6px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: #8B8383;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: .1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/* div botones Sign Up */
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* botones Sign Up */
+.buttonFacebook ,
+.buttonGoogle,
+.buttonSend,
+.buttonLogGoogle{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 18rem;
+    height: 3.1rem;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    background: #3E8C5A;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+/* Pantalla Log In*/
+
+/*Contenedor logIn*/
+.logContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/*Input de correo y contraseña*/
+.mailUser,
+.passwordUser{
+    background: #FFFFFF;
+    width: 280px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border:none;
+    border-radius: 6px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: #8B8383;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: .1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/*Textos de inicio de sesión*/
+.logText p{
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background:#DFF0F2;
+}
+
+.logText h3{
+    font-family: 'Amatic SC';
+    font-size: 55px;
+    align-items: center;
+    text-align: center;
+    color: #3E8C59;
+}
+/* div botones Sign Up */
+.buttonLogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+/*Botón iniciar sesión*/
+.buttonLog{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 18rem;
+    height: 3.1rem;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    background: #3E8C5A;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+/*¿Olvidaste tu contraseña?*/
+.forgottenPass {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: #5080C0;
+    padding: .5em;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/*Diseño del timeline*/
+
+/* header */
+.headTimeline{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.iconApp{
+  width: 90px;
+  height: auto;
+}
+
+.iconUser{
+    width:60px;
+    height: auto;
+
+}
+/*Crear post*/
+#section{
+  justify-content: center;
+  flex-direction:  column;
+  overflow-y: scroll;
+}
+textarea {
+  resize: none;
+}
+.divTextArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.textAreaPostBlue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 355px;
+  height: 150px;
+  background: #79C1BD;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.textPost{
+  border: none;
+  width:280px;
+  height: 91px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+
+.buttonNewPost{
+  align-self: flex-end;
+  width: 80px;
+  height: 25px;
+  margin-top: 10px;
+  margin-right: 10%;
+  border-radius: 25px;
+  border: none;
+  background: #E3F2F4;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 12px;
+  color: #8B8383;
+  text-align: center;
+}
+/* Donde se renderizan los post */
+.postSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 65px;
+}
+.containerPost{
+    display: flex;
+    flex-direction: column;
+}
+.postCard{
+    display: flex;
+    flex-direction: column ;
+    align-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: auto;
+    margin-bottom: 20px;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column-reverse ;
+    align-items: center;
+    align-content: center;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: auto;
+    border-radius: 6px 6px 0px 0px;
+}
+.textContainer >p{
+    background-color: #FFFFFF;
+    font-family: 'Oxygen', sans-serif;
+    color: #8B8383;
+    font-size: 16px;
+    text-align: justify;
+    margin: 15px;
+}
+.oldPostMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 0px 6px 6px;
+    width: 350px;
+}
+.likeImg{
+  width:20px;
+  height: 30px;
+  background-color: #FFFFFF;
+}
+.oldPostMenu >p{
+  width: 150px;
+}
+.buttonDelete{
+    border-left-style: solid;
+    color: #8B8383;
+}
+.editText, .deleteText{
+    border: none;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    color: #8B8383;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+/*Menu de navegación*/
+.menuNavigate{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: #8B8383;
+}
+
+.textAppNavigate{
+  background-color: #FFFFFF;
+  height: 0%;
+  margin-bottom: 95px;
+}
+.textAppNavigate h3{
+  background-color: #FFFFFF;
+  font-family: 'Amatic SC';
+  font-size: 30px;
+  color: #3E8C59;
+  text-align: center;
+}
+
+.menuImg{
+  width: 30px;
+  padding: 20px;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+/*Pantalla de verifiación por correo*/
+.verification{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+}
+.verification p{
+  display:flex;
+  width: 300px;
+  color: #8B8383;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.emailVerified{
+  border: none;
+  background-color: #3E8C5A;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 17px;
+  color:white;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.goLogin{
+  color: #4e4b4b;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.goLoginContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+.verifiedImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.verifiedImage{
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+  width: 10em;
+}
+
+/* DESKTOPHOME */
+@media screen and (min-device-width: 800px) and (max-device-width: 1400px) {
+  /* PANTALLA HOME*/
+.mobileHome{
+  display:none;
+}
+.desktopHome{
+  display:block;
+}
+
+.ecoApp {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 100%;
+    height: 80px;
+}
+
+.ecoApp p {
+    display: flex;
+    font-weight: 700;
+    font-family: 'Amatic SC';
+    font-size: 55px;
+    margin-right: 5em;
+    padding-top: 2em;
+    align-items: center;
+    text-align: center;
+    color: #3E8C59;
+    background-color:#DFF0F2;
+    margin-bottom: 35px;
+}
+/* imagen 1 y botones*/
+.containerOne{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image{
+  width: 27em;
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+.session{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonSignUp,
+.buttonLogin{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 13em;
+  justify-content: center;
+  border: none;
+  background-color: #3E8C5A;
+  color:white;
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+}
+
+/* texto about me e imagen desktop */
+.containerTwo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imageDesktop{
+width: 27em;
+margin-right: 7em;
+margin-left: 13em;
+}
+
+.aboutTextHome{
+  display:block;
+}
+
+.aboutTextHome >p {
+  padding: .5em;
+  font-family: 'Oxygen', sans-serif;
+  text-align: justify ;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  background-color:#DFF0F2;
+  margin-left: 30px;
+}
+/* Diseño de SignUp */
+.mobileSignup, .mobileLogin{
+  display:none;
+}
+.desktopSignup, .desktopLogin{
+  display:block;
+}
+
+.containerRight{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.imageSignup{
+  width: 27em;
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+.signUpTextButtons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+ }
+
+.signUpTextButtons p {
+  font-family: 'Oxygen', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color:#DFF0F2;
+}
+
+header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  width: 100%;
+  height: 80px;
+  margin-top: 60px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  margin-right: 30%;
+}
+
+h2, h3{
+  margin-bottom: 5px;;
+}
+
+.containerLeft{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutTextSignup{
+  display: flex-block;
+  width: 50%;
+  margin-right: 10em;
+  margin-left: 5em;
+}
+
+.aboutTextSignup p {
+  padding: .5em;
+  font-family: 'Oxygen', sans-serif;
+  text-align: justify ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  background-color:#DFF0F2;
+  margin-left: 10px;
+}
+  /* Diseño de LogIn */
+.mobileLogin{
+  display:none;
+}
+.desktopLogin{
+  display:block;
+}
+
+.containerLoginOne{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imageLogin{
+  width: 27em;
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+.loginTextButtons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+  margin-top: 60px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  margin-top: 5px;
+  font-family: 'Amatic SC';
+  font-size: 55px;
+  align-items: center;
+  text-align: center;
+  color: #3E8C59;
+  margin-bottom: 5px;
+  background-color:#DFF0F2;
+}
+
+.containerText{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutTextLogin{
+  display: flex-block;
+  width: 50%;
+  margin-right: 10em;
+  margin-left: 5em;
+}
+
+.aboutTextLogin p {
+  padding: .5em;
+  font-family: 'Oxygen', sans-serif;
+  text-align: justify ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  background-color:#DFF0F2;
+  margin-left: 10px;
+}
+
+.mailUser, .passwordNewUser, .buttonLog, .buttonLogGoogle{
+  margin-bottom: 25px;
+}
+
+/*Timeline Menu de navegación*/
+.headTimeline, .timelineHeader{
+  display: none;
+}
+
+.menuNavigate{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  height: 10%;
+  top: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+.iconAppTwo{
+  display:block;
+  width: 6%;
+  height: 100%;
+  margin-top: 0%;
+  margin-left: -.5%;
+  background-color: #FFFFFF;
+}
+
+.textAppNavigate{
+  display:block;
+  width: 140px;
+  height: 25px;
+  margin-left: -132%;
+  margin-top:-5%;
+}
+
+.textAppNavigate h3{
+  background-color: #FFFFFF;
+  height: 0%;
+  margin-top: 65%;
+  font-size: 40px;
+}
+
+.menuImg{
+  width: 30px;
+  padding: 20px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  margin-left: -100%;
+  margin-right: 4%;
+}
+/*Timeline crear Post*/
+#section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:  column;
+  overflow-y: scroll;
+  margin-top: 90px;
+}
+
+.divTextArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  width: 90%;
+  height: 200px;
+  margin-top: 20px;
+}
+.textAreaPostBlue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  width: 80%;
+  height: 220px;
+  margin-left:5%;
+  margin-right:5%;
+  background: #79C1BD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.textAreaPost{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+  width: 85%;
+  height: 200px;
+  margin-left:5%;
+  margin-right:5%;
+  background: #79C1BD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.textPost{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width:95%;
+  height:120px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+#textPost ::placeholder{
+font-size: 40px;
+}
+
+.buttonNewPost{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 125px;
+  margin-top: 20px;
+  margin-right:25px;
+  background: #E3F2F4;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+/* old Post, timeline*/
+.postSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+}
+
+.containerPost{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.postCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width:89%;
+  height:auto;
+  margin-right: 75px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.textContainer{
+  display: flex;
+  flex-direction: column-reverse ;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: scroll;
+  width: 100%;
+  height: 150px;
+  margin-left:15%;
+  margin-right:15%;
+}
+/*menu de post publicado*/
+.oldPostMenu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: 100%;
+  height: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.likeImg, .editText, .deleteText, p{
+  background-color: #FFFFFF;
+}
+
+.buttonEdit, .buttonDelete{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-top: 15x;
+  margin-bottom: 10px;
+  border-style:none;
+  background: #FFFFFF;
+  align-self: flex-end;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 18px;
+  color: #8B8383;
+  text-align: center;
+}
+
+.likeImg{
+  margin-left: 30px;
+  width: 5%;
+  height:75%;
+}
+
+.likeImg:hover{
+  transform: scale(1.03);
+  background: #3E8C5A;
+}
+
+.buttonEdit{
+  margin-left: 50%;
+  width:13%;
+}
+
+.editText, .editText:focus{
+  border:none;
+}
+
+.buttonDelete{
+  border-left-style:solid;
+  width: 14%;
+}
+}
